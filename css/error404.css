@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background: radial-gradient(50% 50% at 100% 0, rgb(68, 161, 40) 0% 5%, #006600 6% 15%, rgb(68, 161, 40) 16% 25%, #006600 26% 35%, rgb(68, 161, 40) 36% 45%, #006600 46% 55%, rgb(68, 161, 40) 56% 65%, #006600 66% 75%, rgb(68, 161, 40) 76% 85%, #006600 86% 95%, rgba(0, 0, 0, 0) 96%), radial-gradient(50% 50% at 0 100%, rgb(68, 161, 40) 0% 5%, #006600 6% 15%, rgb(68, 161, 40) 16% 25%, #006600 26% 35%, rgb(68, 161, 40) 36% 45%, #006600 46% 55%, rgb(68, 161, 40) 56% 65%, #006600 66% 75%, rgb(68, 161, 40) 76% 85%, #006600 86% 95%, rgba(0, 0, 0, 0) 96%), radial-gradient(50% 50%, rgb(68, 161, 40) 0% 5%, #006600 6% 15%, rgb(68, 161, 40) 16% 25%, #006600 26% 35%, rgb(68, 161, 40) 36% 45%, #006600 46% 55%, rgb(68, 161, 40) 56% 65%, #006600 66% 75%, rgb(68, 161, 40) 76% 85%, #006600 86% 95%, rgba(0, 0, 0, 0) 96%), radial-gradient(50% 50%, rgb(68, 161, 40) 0% 5%, #006600 6% 15%, rgb(68, 161, 40) 16% 25%, #006600 26% 35%, rgb(68, 161, 40) 36% 45%, #006600 46% 55%, rgb(68, 161, 40) 56% 65%, #006600 66% 75%, rgb(68, 161, 40) 76% 85%, #006600 86% 95%, rgba(0, 0, 0, 0) 96%) 32px 32px;
+  background-size: 64px 64px;
+  background-color: rgb(68, 161, 40);
+  font-family: "Chivo Mono", monospace;
+}
+
+.main-text {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-text .button-space {
+  color: rgb(68, 161, 40);
+}
+.main-text .button-space .btn {
+  font-family: "Chivo Mono", monospace;
+}/*# sourceMappingURL=error404.css.map */
